@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets/favicon/favicon-32x32.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/contact.css">
+    <title>V3!</title>
+</head>
+
+<body>
+    <div class="hero">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="home.html">White Lotus</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <!--ms-auto zorgt er voor dat het naar de rechterkant wordt verplaatst-->
+                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link" href="ranks.html">Ranks</a>
+                        <a class="nav-link" href="team.html">Our Team</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="section-header">
+            <div class="row align-items-start">
+                <div class="col-3">
+                    <!--leeglaten-->
+                </div>
+                <div class="col-6">
+                    <h1 class="title">Contact</h1>
+                    <div class="underline"></div>
+                </div>
+                <div class="col-3">
+                    <!--leeglaten-->
+                </div>
+            </div>
+
+
+            <!--CONTACT FORM-->
+            <div class="container form-container">
+                <form action="https://formsubmit.co/contact.whitelotusclan@gmail.com" method="POST">
+                    <br>
+                    <p class="letop-p">Wil jij deel uitmaken van het staffteam? Wacht niet langer en solliciteer hieronder!</p>
+                    <select class="form-select" name="rol" aria-label="Default select example">
+                        <option selected>Kies een rol</option>
+                        <option value="Co-Founder" class="option-co-founder">Co-Founder</option>
+                        <option value="Supervisor" class="option-supervisor">Supervisor</option>
+                        <option value="Management" class="option-management">Management</option>
+                        <option value="Head-Staff" class="option-head-staff">Head Staff</option>
+                        <option value="Super-Admin" class="option-super-admin">Super Admin</option>
+                        <option value="Admin" class="option-admin">Admin</option>
+                        <option value="Junior-Admin" class="option-junior-admin">Junior Admin</option>
+                    </select>
+
+                    <div class="mb-3">
+                        <label class="form-label"></label>
+                        <input class="form-control" name="discord_username" placeholder="Discord Username...">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label"></label>
+                        <input class="form-control" name="leeftijd" placeholder="Leeftijd...">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label"></label>
+                        <textarea class="form-control" name="motivatie" id="exampleFormControlTextarea1" rows="3"
+                            placeholder="Geef kort aan waarom je deze rol wil..."></textarea>
+                    </div>
+                    <input type="hidden" name="_captcha" value="false">
+
+                    <!--Eigen bedank scherm-->
+                    <input type="hidden" name="_next" value="https://sampie1.github.io/v3_submit_screen/submitscreen/index.html">
+                    <button type="submit" class="btn btn-primary sub-btn">Submit</button>
+                </form>
+            </div>
+
+
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+                crossorigin="anonymous"></script>
+            <script src="data/data.js"></script>
+</body>
+
+</html>

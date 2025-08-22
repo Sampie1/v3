@@ -1,0 +1,121 @@
+[
+    {
+        "role": "Founder",
+        "name": "Sampiey",
+        "image": "assets/dc-pfs/sampiey.png",
+        "color": "#ff0700"
+    },
+    {
+        "role": "Founder",
+        "name": "Sneaky Shadow",
+        "image": "assets/#",
+        "color": "#ff0700"
+    },
+
+
+
+    {
+        "role": "Co-Founder",
+        "name": "Quin",
+        "image": "assets/#",
+        "color": "#ff5a00"
+    },
+    {
+        "role": "Co-Founder",
+        "name": "Arcus",
+        "image": "assets/#",
+        "color": "#ff5a00"
+    },
+
+
+
+    {
+        "role": "Supervisor",
+        "name": "Mynkel",
+        "image": "assets/#",
+        "color": "#00ff66"
+    },
+
+
+
+    {
+        "role": "Management",
+        "name": "Hidden",
+        "image": "assets/#",
+        "color": "#00ffff"
+    },
+    {
+        "role": "Management",
+        "name": "Maurice",
+        "image": "assets/#",
+        "color": "#00ffff"
+    },
+    {
+        "role": "Management",
+        "name": "Irisjee",
+        "image": "assets/#",
+        "color": "#00ffff"
+    },
+    {
+        "role": "Management",
+        "name": "Luna Sanches",
+        "image": "assets/#",
+        "color": "00ffff"
+    },
+
+
+
+    {
+        "role": "Head Staff",
+        "name": "Jallie",
+        "image": "assets/#",
+        "color": "#0074ff"
+    },
+    {
+        "role": "Head Staff",
+        "name": "Toob.V.K",
+        "image": "assets/#",
+        "color": "#0074ff"
+    },
+
+
+
+
+    {
+        "role": "Super Admin",
+        "name": "Wesleygame",
+        "image": "assets/#",
+        "color": "#fffa00"
+    },
+    {
+        "role": "Super Admin",
+        "name": "Original_EVB",
+        "image": "assets/#",
+        "color": "#fffa00"
+    },
+
+
+
+    {
+        "role": "Admin",
+        "name": "Mafklapper",
+        "image": "assets/#",
+        "color": "#0004ff"
+    },
+    {
+        "role": "Admin",
+        "name": "D1on__",
+        "image": "assets/#",
+        "color": "#0004ff"
+    },
+
+
+
+
+    {
+        "role": "Junior Admin",
+        "name": "Deme03dc",
+        "image": "assets/#",
+        "color": "#d300ff"
+    }
+]
